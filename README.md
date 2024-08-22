@@ -3,15 +3,15 @@
 
 
 
-Description
+# Description
 This project is a Note Taker app, it will clients to input notes.
 
-Usage
-Credits
+# Usage
+# Credits
 chatgpt
 
 
-Link To Deployed Page
+# Link To Deployed Page
 
-License
+# License
 Please refer to the LICENSE in the repo.
