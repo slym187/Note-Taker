@@ -12,6 +12,6 @@ chatgpt
 
 
 # Link To Deployed Page
-
+https://slym187.github.io/Note-Taker/
 # License
 Please refer to the LICENSE in the repo.
