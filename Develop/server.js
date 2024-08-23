@@ -15,7 +15,7 @@ app.use(express.static(path.join(__dirname, 'Develop', 'public')));
 
 // Route to serve the main HTML file (index.html) using an absolute path
 app.get('/', (req, res) => {
-    const indexPath = 'C:\\Users\\Ruby Hill\\bootcamp\\Note-Taker\\Develop\\index.html';
+    const indexPath = 'C:\\Users\\Ruby Hill\\bootcamp\\Note-Taker\\index.html';
     console.log('Serving index.html from:', indexPath);
     res.sendFile(indexPath, (err) => {
         if (err) {
@@ -27,7 +27,7 @@ app.get('/', (req, res) => {
 
 // Route to serve the notes HTML file (notes.html) using an absolute path
 app.get('/notes.html', (req, res) => {
-    const notesPath = 'C:\\Users\\Ruby Hill\\bootcamp\\Note-Taker\\Develop\\notes.html';
+    const notesPath = 'C:\\Users\\Ruby Hill\\bootcamp\\Note-Taker\\notes.html';
     console.log('Serving notes.html from:', notesPath);
     res.sendFile(notesPath, (err) => {
         if (err) {
