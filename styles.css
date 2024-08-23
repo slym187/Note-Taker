@@ -1,0 +1,43 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-fluid {
+  padding-top: 20px;
+}
+
+.note-form {
+  margin-top: 20px;
+}
+
+.note-title, .note-textarea {
+  margin-bottom: 10px;
+}
+
+.save-note, .clear-btn {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.list-item-title {
+  flex-grow: 1;
+}
+
+.delete-note {
+  cursor: pointer;
+}
